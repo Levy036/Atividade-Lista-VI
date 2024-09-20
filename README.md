@@ -5,10 +5,8 @@ try {
     exit
 }
 
-# Exibe uma mensagem indicando que a lista a seguir são os nomes dos usuários
 Write-Output "Lista de contas de usuário locais:"
 
-# Exibe o nome de cada conta de usuário
 foreach ($conta in $contas) {
     Write-Output $conta.Name
 }
